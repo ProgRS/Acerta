@@ -1,0 +1,64 @@
+.container {
+  width: 100%;
+  margin: 0 30px;
+}
+.filter {
+  background: #FFF;
+  max-width: 50vw;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.filter span {
+  margin-bottom: 20px;
+  margin-left: 55px;
+}
+
+button.btn {
+  align-self: flex-end;
+  margin-top: 10px;
+  padding: 10px 30px;
+  font-weight: 600;
+  font-size: .8rem;
+  margin-right: 20px;
+}
+
+thead {
+  background: var(--background);
+}
+
+tbody {
+  background: #FFF;
+}
+
+table {
+  margin-top: 30px;
+  max-width: 100vw;
+}
+
+
+
+
+
+
+thead {
+  background: var(--background);
+  color: #FFF;
+}
+
+table thead tr th {
+  color: #FFF;
+  font-weight: 500;
+}
+td, th {
+  padding: 5px 10px;
+  margin: 0;
+}
