@@ -41,6 +41,6 @@ $ cd Acerta
 # Instalar as dependências
 $ npm install
 # Rodar a api fake
-$ npx json-server --watch -p 3333 acertaleads
+$ npx json-server --watch -p 3333 acertaleads.json
 # Iniciar o projeto
 $ npm start
